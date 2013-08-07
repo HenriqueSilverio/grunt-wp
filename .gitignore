@@ -1,0 +1,10 @@
+.DS_Store
+desktop.ini
+src/*.sublime-project
+src/*.sublime-workspace
+src/.sass-cache/*
+src/node_modules/*
+src/.ftppass
+src/tmp/*
+build/*
+style.css

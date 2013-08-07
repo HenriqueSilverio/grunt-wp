@@ -1,0 +1,21 @@
+/* TEAM */
+
+Your title: Your name.
+Site: email, link to a contact form, etc.
+Twitter: your Twitter username.
+Location: City, Country.
+
+[...]
+
+
+/* THANKS */
+
+[...]
+
+
+/* SITE */
+
+Last update: YYYY/MM/DD
+Standards: HTML5, CSS3, ...
+Components: Wordpress, GruntJS, jQuery, etc.
+Software: Sublime Text 2 (And/Or Other Software used for the development)
