@@ -90,7 +90,7 @@ function remove_dashboard_widgets() {
 function custom_scripts() {
 	if( !is_admin() ) {
 		wp_deregister_script( 'jquery' );
-		wp_register_script( 'jquery', get_template_directory_uri() . '/build/js/vendor/jquery-2.0.3.min.js', array(), null, true );
+		wp_register_script( 'jquery', get_template_directory_uri() . '/build/js/vendor/jquery-1.10.2.min.js', array(), null, true );
 		wp_register_script( 'app', get_template_directory_uri() . '/build/js/app.min.js', array( 'jquery' ), null, true );
 		wp_enqueue_script( 'app' );
 	}

@@ -1,8 +1,8 @@
-# GruntWP Start #
+# Grunt WP #
 
 ## Descrição do projeto
 
-GruntWP Start foi construido para que você inicie rapidamente o desenvolvimento de temas para Wordpress já integrando o *task runner* [Grunt](http://gruntjs.com/) para automatizar tarefas repetitivas como compilar Compass/SCSS, minificar CSS, testar, concatenar e minificar arquivos de JavaScript, otimizar imagens e fazer deployment dos arquivos para seu servidor.
+Grunt WP foi construido para que você inicie rapidamente o desenvolvimento de temas para Wordpress já integrando o *task runner* [Grunt](http://gruntjs.com/) para automatizar tarefas repetitivas como compilar Compass/SCSS, minificar CSS, testar, concatenar e minificar arquivos de JavaScript, otimizar imagens e fazer deployment dos arquivos para seu servidor.
 
 ## Instalação
 
