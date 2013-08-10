@@ -1,39 +1,42 @@
-# GruntWP Start #
+# GruntWP Start
 
 ## Descrição do projeto
 
-GruntWP Start foi construido para que você inicie rapidamente o desenvolvimento de temas para Wordpress já integrando o *task runner* [Grunt](http://gruntjs.com/) para automatizar tarefas repetitivas como compilar Compass/SCSS, minificar CSS, testar, concatenar e minificar arquivos de JavaScript, otimizar imagens e fazer deployment dos arquivos para seu servidor.
+GruntWP Start foi construído para que você inicie rapidamente o desenvolvimento de temas para WordPress já integrando o *task runner* [Grunt](http://gruntjs.com/) para automatizar tarefas repetitivas como: compilação de arquivos Sass/Scss para CSS, concatenação e minificação de arquivos, validações de scripts, otimização de imagens e *deploy* de arquivos para o seu servidor.
 
 ## Instalação
 
-Caso não tenha trabalhado com o Grunt antes, siga os passos descritos no [Getting started](http://gruntjs.com/getting-started) oficial, e/ou leia [este artigo](http://blog.henriquesilverio.com/javascript-e-jquery/grunt-js-automatize-tarefas-e-otimize-o-seu-workflow/) que escrevi sobre como trabalhar com o Grunt.
+Caso não tenha trabalhado com o Grunt antes, siga os passos descritos no [Getting started](http://gruntjs.com/getting-started) oficial, e/ou leia [este artigo](http://blog.henriquesilverio.com/javascript-e-jquery/grunt-js-automatize-tarefas-e-otimize-o-seu-workflow/) para saber como trabalhar com o Grunt.
 
-Com o Grunt já instalado em sua máquina, basta seguir esses passos:
+Com o Grunt já instalado em sua máquina, siga os passos abaixo:
 
-* Clone o Grunt WP:
+1. Clone o repositório:
 
 ``` bash
 $ git clone https://github.com/HenriqueSilverio/grunt-wp.git
 ```
 
-* Entre no diretório `src/`:
+2. Vá até o diretório `src/`:
 
 ``` bash
 $ cd grunt-wp/src
 ```
 
-* Instale as dependências:
+3. Por fim, instale as dependências com o comando:
 
 ``` bash
 $ npm install
 ```
+> **Observação:** aguarde até que as dependencias sejam instaladas e siga para "Instruções de Uso".
 
-## Instruções de uso
+## Instruções de Uso
 
-1. Personalize o arquivo `package.json`.
-2. Crie um arquivo `.ftppass` e configure a task `ftp-deploy`. ([Maiores informações](https://github.com/zonak/grunt-ftp-deploy)).
+1. Modifique as informações no arquivo `package.json` de acordo com o seu projeto.
+2. Crie um arquivo `.ftppass` e configure a task `ftp-deploy`. [Clique aqui](https://github.com/zonak/grunt-ftp-deploy) para mais informações.
 
-### Assistir alterações no projeto
+## Tarefas Disponíveis
+
+### Observar alterações no projeto
 
 ``` bash
 $ grunt
@@ -59,25 +62,26 @@ $ grunt deploy
 
 ## Contribua com o projeto
 
-1. Dê um Fork no repositório
-2. Crie um branch para adicionar suas novas features: `git checkout -b my-new-feature`
-3. Commit suas alterações: `git commit -am 'Add some feature'`
-4. Push para o branch: `git push origin my-new-feature`
-5. Envie um pull request
+1. Dê um *Fork* no repositório
+2. Crie um *branch* para adicionar os novos recursos: `git checkout -b meu-novo-recurso`
+3. *Commit* suas alterações: `git commit -am 'Adicionado recurso ABC'`
+4. *Push* para o *branch*: `git push origin meu-novo-recurso`
+5. Envie um *pull request*
+
 
 ## Changelog
 
-#### Versão 1.0
+* Versão 1.0.0 - Primeira versão lançada
 
-* Primeira versão lançada
 
-## Créditos
+## Autor
 
 * [@RikeSilverio](http://www.twitter.com/RikeSilverio/)
 
+
 ## Referências
 
-* [Sass ~ SCSS](http://sass-lang.com/)
+* [Sass](http://sass-lang.com/)
 * [Compass](http://compass-style.org/)
 * [Grunt](http://gruntjs.com/)
 * [Normalize CSS](http://necolas.github.io/normalize.css/)
