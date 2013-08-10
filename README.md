@@ -10,19 +10,19 @@ Caso não tenha trabalhado com o Grunt antes, siga os passos descritos no [Getti
 
 Com o Grunt já instalado em sua máquina, siga os passos abaixo:
 
-1. Clone o repositório:
+- Clone o repositório:
 
 ``` bash
 $ git clone https://github.com/HenriqueSilverio/grunt-wp.git
 ```
 
-2. Vá até o diretório `src/`:
+- Vá até o diretório `src/`:
 
 ``` bash
 $ cd grunt-wp/src
 ```
 
-3. Por fim, instale as dependências com o comando:
+- Por fim, instale as dependências com o comando:
 
 ``` bash
 $ npm install
