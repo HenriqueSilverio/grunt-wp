@@ -2,7 +2,7 @@
 
 ## Descrição do projeto
 
-GruntWP Start foi construído para que você inicie rapidamente o desenvolvimento de temas para WordPress já integrando o *task runner* [Grunt](http://gruntjs.com/) para automatizar tarefas repetitivas como: compilação de arquivos Sass/Scss para CSS, concatenação e minificação de arquivos, validações de scripts, otimização de imagens e *deploy* de arquivos para o seu servidor.
+**GruntWP Start** foi construído para que você inicie rapidamente o desenvolvimento de temas para WordPress já integrando o *task runner* [Grunt](http://gruntjs.com/) para automatizar tarefas repetitivas como: compilação de arquivos Sass/Scss para CSS, concatenação e minificação de arquivos, validações de scripts, otimização de imagens e *deploy* de arquivos para o seu servidor.
 
 ## Instalação
 
@@ -27,7 +27,7 @@ $ cd grunt-wp/src
 ``` bash
 $ npm install
 ```
-> **Observação:** aguarde até que as dependencias sejam instaladas e siga para "Instruções de Uso".
+> **Observação:** aguarde até que as dependências sejam instaladas e siga para "Instruções de Uso".
 
 ## Instruções de Uso
 
