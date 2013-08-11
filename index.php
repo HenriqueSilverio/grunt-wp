@@ -32,7 +32,7 @@
 
 		<article>
 			<header>
-				<h1>Not found</h1>
+				<h1>Sem publicações até o momento.</h1>
 			</header>
 		</article>
 

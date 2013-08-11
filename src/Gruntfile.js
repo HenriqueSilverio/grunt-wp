@@ -2,7 +2,7 @@
 
 module.exports = function(grunt) {
 
-	// Load all tasks
+	// Carrega todas as tarefas
 	require("matchdep").filterDev("grunt-*").forEach(grunt.loadNpmTasks);
 
 	grunt.initConfig({
@@ -22,7 +22,7 @@ module.exports = function(grunt) {
 		"**/" +
 		"\n",
 
-		// Watch for changes
+		// Observa as mundaças nos arquivos
 		watch: {
 			css: {
 				files: ['../assets/scss/**/*'],
@@ -34,7 +34,7 @@ module.exports = function(grunt) {
 			}
 		},
 
-		// Compile scss
+		// Compila os arquivos para CSS
 		compass: {
 			dist: {
 				options: {
@@ -54,7 +54,7 @@ module.exports = function(grunt) {
 			}
 		},
 
-		// Copy vendor scripts to build
+		// Copia os vendors para o diretório build
 		copy: {
 			dist: {
 				files: [ {
@@ -66,7 +66,7 @@ module.exports = function(grunt) {
 			}
 		},
 
-		// Linting javascripts
+		// Validação dos scripts
 		jshint: {
 			options: {
 				jshintrc: '.jshintrc'
@@ -77,7 +77,7 @@ module.exports = function(grunt) {
 			]
 		},
 
-		// Concat and minify javascripts
+		// Concatena e minifica os scripts
 		uglify: {
 			options: {
 				mangle: false,
@@ -92,7 +92,7 @@ module.exports = function(grunt) {
 			}
 		},
 
-		// Image optimization
+		// Otimização de imagens
 		imagemin: {
 			dist: {
 				options: {
@@ -108,7 +108,7 @@ module.exports = function(grunt) {
 			}
 		},
 
-		// FTP deployment
+		// Executa deploy via FTP
 		'ftp-deploy': {
 			build: {
 				auth: {
@@ -132,10 +132,10 @@ module.exports = function(grunt) {
 
 	});
 
-	// Default task
+	// Tarefa padrão
 	grunt.registerTask( 'default', [ 'watch' ] );
 
-	// Deploy
+	// Tarefa para Deploy
 	grunt.registerTask( 'deploy', [ 'ftp-deploy' ] );
 
 };

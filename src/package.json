@@ -3,27 +3,13 @@
   "title": "Grunt WP Start",
   "version": "1.0.0",
   "main": "Gruntfile.js",
-  "homepage": "www.projectsite.com",
-  "description": "Build for improve your Wordpress theme development worflow.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/HenriqueSilverio/grunt-wp"
-  },
+  "homepage": "www.sitedoprojeto.com",
+  "description": "Coloque a descrição do seu projeto aqui.",
   "author": {
-    "name": "Company name",
-    "url": "http://www.yourcompany.com",
+    "name": "Nome do autor",
+    "url": "http://www.sitedoautor.com",
     "email": "contact@yourcompany.com"
   },
-  "contributors": [
-    {
-      "name": "Your name",
-      "url": "http://www.yoursite.com"
-    },
-    {
-      "name": "Partner name",
-      "url": "http://www.yourpartner.com"
-    }
-  ],
   "devDependencies": {
     "grunt": "~0.4.1",
     "matchdep": "~0.1.2",

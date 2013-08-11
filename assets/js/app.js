@@ -1,5 +1,5 @@
 $(function(){
-	
-	// Do something after DOM is ready.
+
+	// Coloque o seu script aqui. =)
 
 });
